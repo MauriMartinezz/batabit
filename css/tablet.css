@@ -1,0 +1,36 @@
+.main-tables-container{
+    display: flex;
+    justify-content: space-between  ;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.plans-container--slider{
+    justify-content: center;
+}
+.product-cards--container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.product-detail--card{
+    width: 45%;
+}
+::-webkit-scrollbar {
+   display: none;
+}
+::-webkit-scrollbar-thumb {
+    display: none;
+}
+.bitcoin-img-container{
+    height: 80vh;
+    background-image: url('../assets/img/bitcoinbaby2xcompressed.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bitcoin-img-container h2{
+    font-size: 5.2rem;
+    line-height: 10rem;
+}
